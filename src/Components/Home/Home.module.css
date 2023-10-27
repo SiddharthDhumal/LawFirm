@@ -1,0 +1,121 @@
+.home {
+  background-color: FFFFFF;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid black; */
+  /* background-color: black; */
+  margin-top: 2rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  width: 143px;
+  height: 30.3px;
+  /* position: relative; */
+}
+
+.img {
+  /* width: 30%; */
+  height: 30.3px;
+  /* font-size: 3rem; */
+  /* border: 1px solid black; */
+  color: #e3b748;
+  /* position: absolute;
+  top: 61px;
+  left: 153px; */
+}
+
+.logoname {
+  width: 101.3px;
+  height: 15.95px;
+  /* position: absolute;
+  top: 68.58px;
+  left: 194.7px; */
+}
+
+.pagelinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  width: 431px;
+  height: 26px;
+  list-style-type: none;
+  /* border: 1px solid black; */
+}
+
+.links {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.contactNowbtn {
+  display: block;
+  /* border: 1px solid black; */
+  width: 172px;
+  height: 47px;
+  color: #ffffff;
+  background-color: black;
+  border: 2px solid #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+  width: 1135px;
+  height: 544.71px;
+  margin: 2rem auto;
+  color: #fff;
+}
+
+.inputdiv {
+  width: 438px;
+  height: 74px;
+  border: 1px solid black;
+  border-radius: 25px;
+  position: relative;
+}
+
+.input {
+  /* height: 100%;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: none;
+  border-bottom-right-radius: none;
+  width: 70%; */
+  color: #ffffff;
+  border-radius: 25px;
+  background-color: black;
+}
+
+.inputBtn {
+  position: absolute;
+  background-color: black;
+  color: #fff;
+  width: 137px;
+  height: 100%;
+  right: 0;
+  border-radius: 43px;
+  cursor: pointer;
+}
+
+.content {
+  width: 40%;
+  margin: 0.5rem auto;
+}
